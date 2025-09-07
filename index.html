@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="EnconeCare: A leading nursing agency in Delhi, India, providing compassionate and professional male/female nurses, attendants, and specialized care for newborns, mothers, and the elderly.">
+    <meta name="keywords" content="EnconeCare, nursing agency, home care, patient care, elder care, newborn care, male nurse, female nurse, attendant, Delhi, India">
+    <meta name="author" content="EnconeCare">
+    <title>EnconeCare - Your Health, Our Priority</title>
+
+    <script>
+        // Immediately set the theme on page load to prevent flickering
+        (function() {
+            const savedTheme = localStorage.getItem('darkMode');
+            const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme === "enabled" || (savedTheme === null && systemPrefersDark)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
+
+    <link rel="shortcut icon" href="Images/logo_raw_8112.png">
+    <link rel="icon" href="Images/logo_raw_8112.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SW0RQ8WG4N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SW0RQ8WG4N');
+    </script>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Images/logo_raw_8112.png" alt="EnconeCare Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="male-female-nursing-staff.html">Male/Female Nursing Staff</a></li>
+                                <li><a class="dropdown-item" href="male-female-attendants.html">Male/Female Attendants</a></li>
+                                <li><a class="dropdown-item" href="elder-senior-citizen-care.html">Elder & Senior Citizen Care</a></li>
+                                <li><a class="dropdown-item" href="nanny-baby-care.html">Nanny & Baby Care</a></li>
+                                <li><a class="dropdown-item" href="specialized-patient-care.html">Specialized Patient Care</a></li>
+                                <li><a class="dropdown-item" href="post-operative-care.html">Post-Operative Care</a></li>
+                                <li><a class="dropdown-item" href="physiotherapy.html">Physiotherapy</a></li>
+                                <li><a class="dropdown-item" href="sleep-study-test.html">Sleep Study Test</a></li>
+                                <li><a class="dropdown-item" href="injection-visit.html">Injection Visit</a></li>
+                                <li><a class="dropdown-item" href="doctor-visit.html">Doctor Visit</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary ms-lg-3">Get a Quote</a>
+                    <div class="dark-mode-toggle-switch ms-lg-3">
+                        <button id="dark-mode-toggle-button" class="btn btn-primary">Dark Mode</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/img1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/img2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/img3.jpg" class="d-block w-100" alt="...">
+                </div>
+                
+              
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-3 text-white">EnconeCare</h1>
+                    <p class="lead text-white my-4">Your Health, Our Priority. Compassionate and professional care at your doorstep.</p>
+                    <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Welcome to EnconeCare</h2>
+                    <p>ENCONECARE, established in 2022 and situated in Delhi, is a leading nursing agency in India. We are renowned for providing high-quality, professional staff who deliver unparalleled services. Our primary goal is customer satisfaction, and we continuously strive to enhance our services to meet the evolving needs of our clients.</p>
+                    <p>We are dedicated to understanding and fulfilling your needs in the best possible way. EnconeCare offers a range of services including male and female nurses, newborn baby care, pregnancy and mother care, as well as nursing aides (Ayaa) and attendants. We aim to build lasting and cherished relationships with our clients.</p>
+                </div>
+                <div class="col-lg-5 offset-lg-1 mt-4 mt-lg-0 inquiry-column-bg">
+                    <div class="inquiry-form">
+                        <h3 class="contact-heading text-center">Quick Enquiry</h3>
+                        <p class="text-center mb-4">Let us know your needs, and we'll provide the best care solution for you.</p>
+                        <form action="https://formspree.io/f/xgvzlngp" method="POST">
+                            <div class="form-group mb-3">
+                                <label for="inquiry-name" class="visually-hidden">Name</label>
+                                <input type="text" class="form-control" id="inquiry-name" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="inquiry-contact" class="visually-hidden">Contact No.</label>
+                                <input type="tel" class="form-control" id="inquiry-contact" name="contact" placeholder="Contact No." required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="inquiry-email" class="visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="inquiry-email" name="email" placeholder="E-Mail" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="inquiry-message" class="visually-hidden">Message</label>
+                                <textarea class="form-control" id="inquiry-message" name="message" placeholder="Message" required rows="4"></textarea>
+                            </div>
+                            <button class="btn btn-primary w-100 inquiry-btn" type="submit">Send Enquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">We offer a wide range of in-home care services to meet your needs.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="male-female-nursing-staff.html">
+                            <div class="service-icon">
+                                <i class="lni lni-users"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Male/Female Nursing Staff</h3>
+                        <p class="service-text">Reliable and experienced male and female nursing staff for diverse client needs. Our nurses are trained to provide excellent patient care and hospitality.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="male-female-attendants.html">
+                            <div class="service-icon">
+                                <i class="lni lni-sthethoscope"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Male/Female Attendants</h3>
+                        <p class="service-text">Skilled attendants for administering medication, assisting with mobility, feeding, grooming, and monitoring vitals for 12 or 24-hour shifts.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="elder-senior-citizen-care.html">
+                            <div class="service-icon">
+                                <i class="lni lni-first-aid"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Elder & Senior Citizen Care</h3>
+                        <p class="service-text">Compassionate caretakers who follow every step according to the needs of the elderly, ensuring their comfort and well-being.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="nanny-baby-care.html">
+                            <div class="service-icon">
+                                <i class="lni lni-heart"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Nanny & Baby Care</h3>
+                        <p class="service-text">Dedicated to the joy and care of children, we provide nannies who create a safe, nurturing, and playful environment for your little ones.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="specialized-patient-care.html">
+                            <div class="service-icon">
+                                <i class="lni lni-wheelchair"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Specialized Patient Care</h3>
+                        <p class="service-text">Expert care for bed-ridden patients, those with knee replacements, neurological conditions, paralysis, and other specific medical needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="post-operative-care.html">
+                            <div class="service-icon">
+                                <i class="lni lni-pulse"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Post-Operative Care</h3>
+                        <p class="service-text">Professional assistance during the crucial recovery period after surgery to ensure a smooth and safe healing process at home.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="physiotherapy.html">
+                            <div class="service-icon">
+                                <i class="lni lni-pulse"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Physiotherapy</h3>
+                        <p class="service-text">Personalized physiotherapy sessions at home to help you recover from injury, surgery, or illness.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="sleep-study-test.html">
+                            <div class="service-icon">
+                                <i class="fas fa-bed"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Sleep Study Test</h3>
+                        <p class="service-text">Comprehensive sleep study tests conducted in the comfort of your home to diagnose and treat sleep disorders.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="injection-visit.html">
+                            <div class="service-icon">
+                                <i class="lni lni-syringe"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Injection Visit</h3>
+                        <p class="service-text">Convenient and professional injection services at home by our qualified nursing staff.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <a href="doctor-visit.html">
+                            <div class="service-icon">
+                                <i class="lni lni-user"></i>
+                            </div>
+                        </a>
+                        <h3 class="service-title">Doctor Visit</h3>
+                        <p class="service-text">Schedule a visit from our experienced doctors for consultation and treatment at home.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="medical-equipments" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Medical Equipments</h2>
+                    <p class="section-subtitle">We provide essential medical equipment for home care.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <img src="Images/oth1.webp" class="img-fluid rounded shadow-sm mb-3" alt="Oxygen Cylinder">
+                        <h3 class="service-title">Oxygen Cylinder</h3>
+                        <p class="service-text">High-quality oxygen cylinders for respiratory support at home.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <img src="Images/oth2.jpg" class="img-fluid rounded shadow-sm mb-3" alt="Ventilator">
+                        <h3 class="service-title">Ventilation</h3>
+                        <p class="service-text">State-of-the-art ventilators for patients with breathing difficulties.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <img src="Images/wh&ch.jfif" class="img-fluid rounded shadow-sm mb-3" alt="X-Ray Machine">
+                        <h3 class="service-title">Wheel Chair & Bed</h3>
+                        <p class="service-text">Equipped with advanced features, playing a crucial role in the recovery process.</p>
+                    </div>
+                </div>
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card">
+        <img src="Images/medical-diagnostic550.jpg" class="img-fluid rounded shadow-sm mb-3" alt="Diagnostics Equipment">
+        <h3 class="service-title">Diagnostics Equipment</h3>
+        <p class="service-text">Advanced diagnostic equipment for accurate and timely diagnosis.</p>
+    </div>
+</div>
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card">
+        <img src="Images/monitor1.jpg" class="img-fluid rounded shadow-sm mb-3" alt="Monitor">
+        <h3 class="service-title">Monitor</h3>
+        <p class="service-text">High-resolution monitors for clear and precise medical imaging.</p>
+    </div>
+</div>
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card">
+        <img src="Images/sur.jfif" class="img-fluid rounded shadow-sm mb-3" alt="Surgical Equipment">
+        <h3 class="service-title">Surgical Equipment</h3>
+        <p class="service-text">A wide range of surgical equipment for various medical procedures.</p>
+    </div>
+</div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-muted"><b> Other Equipments includes Weighing and Measuring Kits, Stretcher, etc..</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Why Choose Us?</h2>
+                    <p class="section-subtitle">We provide the best care for your loved ones.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 text-center">
+                    <div class="service-icon">
+                        <i class="lni lni-users"></i>
+                    </div>
+                    <h3 class="service-title">Exp Male Female Attendent</h3>
+                    <p class="service-text">Experts in caring bed ridden,knee replcement Neuro ,Paralysis etc.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 text-center">
+                    <div class="service-icon">
+                        <i class="lni lni-first-aid"></i>
+                    </div>
+                    <h3 class="service-title">Elders/Senior Citizen Care Taker</h3>
+                    <p class="service-text">Follow every step according to Elders Need.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 text-center">
+                    <div class="service-icon">
+                        <i class="lni lni-sthethoscope"></i>
+                    </div>
+                    <h3 class="service-title">Exp.Male/Female Nurses</h3>
+                    <p class="service-text">Our nurses are well qualified and trained.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 text-center">
+                    <div class="service-icon">
+                        <i class="lni lni-heart"></i>
+                    </div>
+                    <h3 class="service-title">Nanny Baby Care</h3>
+                    <p class="service-text">We realizes to joys than to see children smile, hear them laugh, or watch them play. That is why we have dedicated ourselves to caring for children.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Our Gallery</h2>
+                    <p class="section-subtitle">A glimpse into our compassionate care.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="Images/g1.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Images/g2.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Images/g3.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 3">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Images/ng4.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 4">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Images/ng5.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 5">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Images/g6.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"EnconeCare has been a blessing for our family. Their caregivers are compassionate, professional, and truly dedicated to their work. We couldn't have asked for better care for our mother."</p>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h5>Puja Midha</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"I am so grateful for the care and support EnconeCare has provided for my father. Their team is always there for us, and they have made a real difference in our lives."</p>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h5>Kawaljeet Sahai</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"The caregivers at EnconeCare are simply the best. They are so kind and patient, and they have made a huge difference in my grandmother's life. I would recommend them to anyone."</p>
+                        <div class="testimonial-author">
+                           
+                            <div>
+                                <h5>Narendra Lal</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Get in Touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="contact-heading">Contact Information</h3>
+                    <div class="contact-info">
+                        <p><i class="lni lni-map-marker"></i> S-558 dwarka bhawan, School Block, Shakarpur, Delhi, 110092</p>
+                        <p><i class="lni lni-phone"></i> <a href="tel:+918887699109">+91 888 769 9109</a></p>
+                        <p><i class="lni lni-phone"></i> <a href="tel:+918920813780">+91 892 081 3780</a></p>
+                        <p><i class="lni lni-envelope"></i> <a href="mailto:enconecare8887@gmail.com">enconecare8887@gmail.com</a></p>
+                    </div>
+                    <div class="social-icons mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=100083129450615"><i class="lni lni-facebook-filled"></i></a>
+                        <a href="#"><i class="lni lni-twitter-filled"></i></a>
+                        <a href="https://www.instagram.com/enconecarenursing?igsh=Z29ldzNsdzczNmh2"><i class="lni lni-instagram"></i></a>
+                        <a href="#"><i class="lni lni-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <h3 class="contact-heading">Our Location</h3>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0449626078957!2d77.27797989999999!3d28.6284145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce35ef7c54d69%3A0x20401dba1989958!2sEncone%20care%20nursing%20services!5e0!3m2!1sen!2sin!4v1754220669069!5m2!1sen!2sin" width="100%" height="380" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">About EnconeCare</h4>
+                        <p>A leading nursing agency in Delhi, India, dedicated to providing compassionate and professional care services to those in need.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Our Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="male-female-nursing-staff.html">Nursing Staff</a></li>
+                            <li><a href="male-female-attendants.html"></a>Patient Care</li>
+                            <li><a href="elder-senior-citizen-care.html">Elder Care</a></li>
+                            <li><a href="nanny-baby-care.html">Baby Care</a></li>
+                            <li><a href="specialized-patient-care.html">Dementia Care</a></li>
+                            <li><a href="post-operative-care.html">Post-Operative Care</a></li>
+                            <li><a href="physiotherapy.html">Physiotherapy</a></li>
+                            <li><a href="sleep-study-test.html">Sleep Study Test</a></li>
+                            <li><a href="injection-visit.html">Injection Visit</a></li>
+                            <li><a href="doctor-visit.html">Doctor Visit</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul class="footer-contact">
+                            <li><i class="lni lni-map-marker"></i> S-558 dwarka bhawan, Shakarpur, Delhi</li>
+                            <li><i class="lni lni-phone"></i> <a href="tel:+918887699109">+91 888 769 9109</a></li>
+                            <li><i class="lni lni-envelope"></i> enconecare8887@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright-text">Copyright &copy; 2024 EnconeCare.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <script>
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.style.display = 'none';
+        });
+    </script>
+
+    <script src="enhancements.js"></script>
+
+    <a href="https://wa.me/+918887699109?text=Hello,%20I'm%20interested%20in%20your%20services." class="whatsapp-float" target="_blank">
+        <i class="lni lni-whatsapp"></i>
+    </a>
+
+</body>
+
+</html>
